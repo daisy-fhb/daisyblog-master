@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-let base = 'http://daisyfhb.cn:1000';
+let base = '//daisyfhb.cn:1000';
 export const postRequest = (url, params) => {
   return axios({
     method: 'post',
